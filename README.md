@@ -47,5 +47,10 @@ With built-in libraries like Spark SQL, MLlib for machine learning, GraphX for g
 
 
 
+# Spark Core Concepts
+RDD
+DataFrames
+Datasets
+
 
 <img width="345" height="146" alt="image" src="https://github.com/user-attachments/assets/77d5535a-d824-4925-b77f-6c46b2df00f9" />
