@@ -136,7 +136,6 @@ Apache Spark is a distributed computing framework designed for large-scale data 
 > - RDD lineage enables fault tolerance.  
 > - High-level libraries make Spark versatile for batch, streaming, machine learning, and graph workloads.
 
-## How It Works
 
 ### 1. Spark Architecture
 
