@@ -196,15 +196,71 @@ spark.stop()
 
 ---
 
-## 🔑 Spark Core Concepts
+## ⚙️ Installation & Setup
 
-- **RDD**: Immutable distributed collection of objects
-- **DataFrames**: Distributed collections with schema
-- **Datasets**: Type-safe structured collection
+> **Get Spark Up and Running!**
+>
+> This section guides you through the process of installing Apache Spark and its dependencies on your local machine or in the cloud. You’ll learn how to set up PySpark, configure environments, and verify your Spark installation. Whether you’re on Windows, macOS, Linux, or working in notebooks, we’ll help you start your first Spark session quickly and painlessly.
+
+---
+
+## 🧩 Spark Core Concepts
 
 <p align="center">
   <img width="345" height="146" alt="Spark Core Concepts" src="https://github.com/user-attachments/assets/77d5535a-d824-4925-b77f-6c46b2df00f9" />
 </p>
+
+> **Understanding Spark's Foundation**
+>
+> Here you’ll explore Spark’s core abstractions—RDDs, DataFrames, and Datasets. We’ll break down what makes Spark’s distributed computing model so powerful, why transformations are lazy, and how Spark handles fault tolerance and parallelism. By mastering these fundamentals, you’ll be prepared to tackle any large-scale data problem.
+
+---
+
+## 🐍 PySpark
+
+> **Harnessing Spark with Python**
+>
+> PySpark brings Spark’s power to Python! Discover how to create RDDs, DataFrames, and run SQL queries right in your favorite language. With hands-on examples, you’ll see how to process data, transform it, and analyze results. Whether you’re manipulating big datasets or building ETL pipelines, PySpark makes it easy to scale with Python.
+
+---
+
+## 🔷 Spark SQL
+
+> **Structured Data Processing Made Easy**
+>
+> With Spark SQL, you can query structured data using both SQL and DataFrame APIs. Learn how Spark handles schema inference, integrates with data sources (like Parquet or Hive), and accelerates analytics workflows with its Catalyst optimizer. This section empowers you to write familiar SQL statements—at scale!
+
+---
+
+## 🌊 Spark Streaming
+
+> **Real-Time Data, Real-World Solutions**
+>
+> Spark Streaming focuses on processing live data streams—logs, events, sensor data, and more. Understand the difference between batch and streaming jobs, build pipelines that react to incoming data in seconds, and see how Spark’s Structured Streaming API enables robust and scalable real-time analytics.
+
+---
+
+## 🤖 Machine Learning with MLlib
+
+> **Data Science at Scale**
+>
+> MLlib makes machine learning scalable and simple within Spark. Explore algorithms for classification, regression, clustering, and recommendations—all distributed for big data. Learn the steps to building, training, and deploying ML models using Spark DataFrames and Pipelines.
+
+---
+
+## ☁️ Integration with Cloud Platforms (Azure, GCP, AWS)
+
+> **Deploying Spark Anywhere**
+>
+> This section shows how to run Spark jobs in the cloud: Azure, Google Cloud, and AWS. Follow end-to-end guides on configuring clusters, connecting to cloud data storage, and executing distributed workloads on managed services like Databricks, EMR, and Dataproc.
+
+---
+
+## 🗂️ Sample Projects
+
+> **Hands-On Spark Applications**
+>
+> Dive into practical sample projects demonstrating how Spark is used in real data engineering scenarios. From ETL jobs to analytics dashboards, these examples feature step-by-step guides to help you apply Spark’s capabilities to real-world tasks and inspire your own data solutions.
 
 ---
 
