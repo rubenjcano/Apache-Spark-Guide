@@ -105,6 +105,37 @@ Apache Spark is a distributed computing framework designed for large-scale data 
 > - High-level libraries make Spark versatile for batch, streaming, machine learning, and graph workloads.
 
 
+#### 🏁 Example
+
+```python
+from pyspark.sql import SparkSession
+
+# Step 1: Initialize SparkSession
+spark = SparkSession.builder.appName("Example").getOrCreate()
+
+# Step 2: Create an RDD
+data = [1, 2, 3, 4, 5]
+rdd = spark.sparkContext.parallelize(data)
+
+# Step 3: Transformations
+transformed_rdd = rdd.filter(lambda x: x > 2).map(lambda x: x * 2)
+
+# Step 4: Action
+result = transformed_rdd.collect()
+print("Transformed result:", result)  # Output: [6, 8, 10]
+
+# Step 5: Stop SparkSession
+spark.stop()
+```
+
+> 💡 **How it works:**  
+> 1. SparkSession starts the app  
+> 2. RDD created from list  
+> 3. Transformations (filter, map) build DAG  
+> 4. `collect()` triggers execution  
+> 5. Results printed in driver
+
+
 ### 1. Spark Architecture
 
 ![Spark Architecture](https://github.com/user-attachments/assets/6b3e6edd-b301-44b2-b216-87c23ebe2434)
@@ -247,38 +278,6 @@ You can launch clusters, connect via notebooks (Jupyter), and run Spark jobs at 
 9. [Sample Projects](#sample-projects)
 10. [Resources](#resources)
 </details>
-
----
-
-## 🏁 Example
-
-```python
-from pyspark.sql import SparkSession
-
-# Step 1: Initialize SparkSession
-spark = SparkSession.builder.appName("Example").getOrCreate()
-
-# Step 2: Create an RDD
-data = [1, 2, 3, 4, 5]
-rdd = spark.sparkContext.parallelize(data)
-
-# Step 3: Transformations
-transformed_rdd = rdd.filter(lambda x: x > 2).map(lambda x: x * 2)
-
-# Step 4: Action
-result = transformed_rdd.collect()
-print("Transformed result:", result)  # Output: [6, 8, 10]
-
-# Step 5: Stop SparkSession
-spark.stop()
-```
-
-> 💡 **How it works:**  
-> 1. SparkSession starts the app  
-> 2. RDD created from list  
-> 3. Transformations (filter, map) build DAG  
-> 4. `collect()` triggers execution  
-> 5. Results printed in driver
 
 ---
 
