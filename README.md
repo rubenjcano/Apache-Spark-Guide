@@ -13,9 +13,32 @@
   <img width="1266" height="460" alt="Apache Spark" src="https://github.com/user-attachments/assets/e883f51f-8f48-4124-b976-a2edc6067a94" />
 </p>
 
-## 📚 Overview
 
 This repository provides a comprehensive guide to **Apache Spark** for aspiring Data Engineers. It covers core concepts, hands-on examples, and best practices for working with Spark in distributed environments.
+
+---
+
+# Table of Contents
+
+1. [Introduction](https://github.com/rubenjcano/Apache-Spark-Guide#Introduction)
+
+2. [Installation & Setup](https://github.com/rubenjcano/Apache-Spark-Guide#Installation-&-Setup)
+
+3. [Spark Core Concepts]
+
+4. [PySpark]
+
+5. [Spark SQL]
+
+6. [Spark Streaming]
+
+7. [Machine Learning with MLib]
+
+8. [Integration with Cloud Platforms (Azure, GCP, AWS)]
+
+9. [Sample Projects]
+
+10. [Resources]
 
 ---
 
@@ -135,8 +158,9 @@ spark.stop()
 > 4. `collect()` triggers execution  
 > 5. Results printed in driver
 
+---
 
-### 1. Spark Architecture
+#### 1. Spark Architecture
 
 ![Spark Architecture](https://github.com/user-attachments/assets/6b3e6edd-b301-44b2-b216-87c23ebe2434)
 
@@ -144,7 +168,7 @@ This diagram illustrates the core components of Apache Spark’s architecture an
 
 ---
 
-### 2. Spark Execution Flow
+#### 2. Spark Execution Flow
 
 ![Spark Execution Flow](https://github.com/user-attachments/assets/60b674f6-2729-4537-b8e1-e6e776ec8c6a)
 
@@ -152,7 +176,7 @@ This flowchart represents the lifecycle of a Spark job from submission to comple
 
 ---
 
-### 3. Spark Job Execution Internals
+#### 3. Spark Job Execution Internals
 
 ![Spark Job Execution Internals](https://github.com/user-attachments/assets/fdfd5567-4ce1-45fc-94ce-e4781700cb1d)
 
